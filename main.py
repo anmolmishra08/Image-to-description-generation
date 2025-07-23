@@ -254,3 +254,6 @@ def predict_caption_for_user_image(model, vectorizer, image_features, vgg_model=
 
 # Example usage after training:
 predict_caption_for_user_image(model, vectorizer, image_features, max_seq_length=max_seq_length)
+
+print("Script executed successfully.")
+
